@@ -1,0 +1,451 @@
+
+*** Running vivado
+    with args -log IFID_IDEXE_Module.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IFID_IDEXE_Module.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source IFID_IDEXE_Module.tcl -notrace
+Command: synth_design -top IFID_IDEXE_Module -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4908 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 469.559 ; gain = 178.605
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'IFID_IDEXE_Module' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IFID_IDEXE_Module.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PC' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/PC.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/PC.v:2]
+INFO: [Synth 8-6157] synthesizing module 'IM' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (2#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Pc_Adder' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Pc_Adder.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Pc_Adder' (3#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Pc_Adder.v:2]
+INFO: [Synth 8-6157] synthesizing module 'IFID_Pipeline_Register' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IFID_Pipeline_Register.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IFID_Pipeline_Register' (4#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IFID_Pipeline_Register.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (5#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regDst_mux' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/regDst_mux.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regDst_mux' (6#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/regDst_mux.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Register_File.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (7#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Register_File.v:2]
+INFO: [Synth 8-6157] synthesizing module 'imm_Extender' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/imm_Extender.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'imm_Extender' (8#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/imm_Extender.v:2]
+INFO: [Synth 8-6157] synthesizing module 'IDEXE_Pipeline_Register' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXE_Pipeline_Register' (9#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'IFID_IDEXE_Module' (10#1) [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IFID_IDEXE_Module.v:2]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[31]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[30]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[29]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[28]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[27]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[26]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[25]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[24]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[23]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[22]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[21]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[20]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[19]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[18]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[17]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[16]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[15]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[14]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[13]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[12]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[11]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[10]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[9]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[8]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[1]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 533.926 ; gain = 242.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 533.926 ; gain = 242.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 533.926 ; gain = 242.973
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:19]
+WARNING: [Synth 8-327] inferring latch for variable 'MemtoReg_reg' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:20]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:21]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUop_reg' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/Control_Unit.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 533.926 ; gain = 242.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	  33 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module IM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+Module Pc_Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module IFID_Pipeline_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+Module Control_Unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module regDst_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module Register_File 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 2     
+Module IDEXE_Pipeline_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'IDEXE_Pipeline_Register_tb/eALUsrc_reg' into 'IDEXE_Pipeline_Register_tb/eMemtoReg_reg' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v:30]
+INFO: [Synth 8-4471] merging register 'IDEXE_Pipeline_Register_tb/eqb_reg[31:0]' into 'IDEXE_Pipeline_Register_tb/eqa_reg[31:0]' [E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v:33]
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rs_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rs_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rs_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rs_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[16]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/func_reg[5]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rs_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/op_reg[1]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/op_reg[5]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[5]' (FD) to 'IFID_Pipeline_Register_tb/op_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/op_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[17]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rt_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[16]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rd_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rt_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[17]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rd_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rt_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rd_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rt_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rd_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rt_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/rd_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Control_Unit_tb/ALUop_reg[0]' (LD) to 'Control_Unit_tb/ALUop_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Control_Unit_tb/ALUop_reg[1] )
+INFO: [Synth 8-3886] merging instance 'Control_Unit_tb/ALUop_reg[2]' (LD) to 'Control_Unit_tb/ALUop_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Control_Unit_tb/ALUop_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Control_Unit_tb/MemWrite_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Control_Unit_tb/RegWrite_reg )
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[16]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[5]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[6]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[7]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[8]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[9]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[10]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[11]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[12]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[13]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[14]' (FD) to 'IFID_Pipeline_Register_tb/imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/imm_reg[15]' (FD) to 'IDEXE_Pipeline_Register_tb/eMemWrite_reg'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eALUop_reg[0]' (FD) to 'IDEXE_Pipeline_Register_tb/eMemWrite_reg'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eALUop_reg[1]' (FD) to 'IDEXE_Pipeline_Register_tb/eRegWrite_reg'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eALUop_reg[2]' (FD) to 'IDEXE_Pipeline_Register_tb/eMemWrite_reg'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eALUop_reg[3]' (FD) to 'IDEXE_Pipeline_Register_tb/eMemWrite_reg'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eMemWrite_reg' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eRegWrite_reg' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[17]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[0]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[1]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[3]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[4]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[5]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[6]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[7]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[8]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[9]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[10]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[11]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[12]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[13]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eimm32_reg[14]' (FD) to 'IDEXE_Pipeline_Register_tb/eimm32_reg[15]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[3]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[4]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[5]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[6]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[7]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[8]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[9]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[10]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[11]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[12]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[13]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[14]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[15]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[16]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[17]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[18]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[19]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[20]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[21]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[22]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[23]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[24]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[25]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[26]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[27]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[28]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[29]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[30]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IDEXE_Pipeline_Register_tb/eqa_reg[31]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[0]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/dinstOut_reg[0]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[1]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/dinstOut_reg[1]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[3]'
+INFO: [Synth 8-3886] merging instance 'IFID_Pipeline_Register_tb/dinstOut_reg[2]' (FD) to 'IFID_Pipeline_Register_tb/dinstOut_reg[16]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\IFID_Pipeline_Register_tb/dinstOut_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\IFID_Pipeline_Register_tb/dinstOut_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\PC_tb/pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\PC_tb/pc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Control_Unit_tb/MemtoReg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\IDEXE_Pipeline_Register_tb/eimm32_reg[15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\IDEXE_Pipeline_Register_tb/eMemtoReg_reg )
+WARNING: [Synth 8-3332] Sequential element (Control_Unit_tb/RegWrite_reg) is unused and will be removed from module IFID_IDEXE_Module.
+WARNING: [Synth 8-3332] Sequential element (Control_Unit_tb/MemtoReg_reg) is unused and will be removed from module IFID_IDEXE_Module.
+WARNING: [Synth 8-3332] Sequential element (Control_Unit_tb/MemWrite_reg) is unused and will be removed from module IFID_IDEXE_Module.
+WARNING: [Synth 8-3332] Sequential element (Control_Unit_tb/ALUop_reg[3]) is unused and will be removed from module IFID_IDEXE_Module.
+WARNING: [Synth 8-3332] Sequential element (Control_Unit_tb/ALUop_reg[1]) is unused and will be removed from module IFID_IDEXE_Module.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 677.754 ; gain = 386.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 677.754 ; gain = 386.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 677.754 ; gain = 386.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |FDRE   |    32|
+|5     |IBUF   |     1|
+|6     |OBUF   |   173|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------+------------------------+------+
+|      |Instance                     |Module                  |Cells |
++------+-----------------------------+------------------------+------+
+|1     |top                          |                        |   216|
+|2     |  IDEXE_Pipeline_Register_tb |IDEXE_Pipeline_Register |     1|
+|3     |  IFID_Pipeline_Register_tb  |IFID_Pipeline_Register  |     1|
+|4     |  PC_tb                      |PC                      |    39|
++------+-----------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 678.672 ; gain = 387.719
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 794.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+148 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 794.793 ; gain = 503.840
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 794.793 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.runs/synth_1/IFID_IDEXE_Module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IFID_IDEXE_Module_utilization_synth.rpt -pb IFID_IDEXE_Module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 20 19:27:14 2022...

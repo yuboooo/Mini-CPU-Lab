@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../331_lab5_yubo.srcs/sources_1/new/ALU.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/ALUMux.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/Control_Unit.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/DataMem.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/EXEMEM_Pipeline_Register.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/IFID_IDEXE_Module.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/IFID_Pipeline_Register.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/IM.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/MEMWB_Pipeline_Register.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/PC.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/Pc_Adder.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/Register_File.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/imm_Extender.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/regDst_mux.v" \
+"../../../../331_lab5_yubo.srcs/sources_1/new/wbMux.v" \
+"../../../../331_lab5_yubo.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

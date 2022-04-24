@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sim_1/new/testbench.v,1649648468,verilog,,,,testbench,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/ALU.v,1649009532,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/ALUMux.v,,ALU,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/ALUMux.v,1649009306,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Control_Unit.v,,ALUMux,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Control_Unit.v,1649647210,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/DataMem.v,,Control_Unit,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/DataMem.v,1649644778,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/EXEMEM_Pipeline_Register.v,,DataMem,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/EXEMEM_Pipeline_Register.v,1649647034,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v,,EXEMEM_Pipeline_Register,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IDEXE_Pipeline_Register.v,1649647952,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IFID_IDEXE_Module.v,,IDEXE_Pipeline_Register,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IFID_IDEXE_Module.v,1650842182,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IFID_Pipeline_Register.v,,IFID_IDEXE_Module,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IFID_Pipeline_Register.v,1647816377,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IM.v,,IFID_Pipeline_Register,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/IM.v,1650842093,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/MEMWB_Pipeline_Register.v,,IM,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/MEMWB_Pipeline_Register.v,1649648248,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/PC.v,,MEMWB_Pipeline_Register,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/PC.v,1647815862,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Pc_Adder.v,,PC,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Pc_Adder.v,1647816185,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Register_File.v,,Pc_Adder,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/Register_File.v,1647796463,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/imm_Extender.v,,Register_File,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/imm_Extender.v,1647761766,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/regDst_mux.v,,imm_Extender,,,,,,,,
+E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/regDst_mux.v,1647798896,verilog,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sources_1/new/wbMux.v,,regDst_mux,,,,,,,,
+,,,,E:/CMPEN 331 Vivado Lab/331_Lab5/331_lab5_yubo/331_lab5_yubo.srcs/sim_1/new/testbench.v,,wbMux,,,,,,,,

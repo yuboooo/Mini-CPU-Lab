@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 20 19:21:18 2022
+# Process ID: 19552
+# Current directory: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24348 E:\CMPEN 331 Vivado Lab\331_Lab3\331_lab3_yubo\331_lab3_yubo.xpr
+# Log file: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/vivado.log
+# Journal file: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/IFID_IDEXE_Module_tb/destReg}} 
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_sim

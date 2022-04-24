@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 20 19:26:57 2022
+# Process ID: 17420
+# Current directory: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.runs/synth_1
+# Command line: vivado.exe -log IFID_IDEXE_Module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IFID_IDEXE_Module.tcl
+# Log file: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.runs/synth_1/IFID_IDEXE_Module.vds
+# Journal file: E:/CMPEN 331 Vivado Lab/331_Lab3/331_lab3_yubo/331_lab3_yubo.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IFID_IDEXE_Module.tcl -notrace
